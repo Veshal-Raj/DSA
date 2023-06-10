@@ -5,22 +5,33 @@ class Node{
     }
 }
 
-const a = new Node('A')
-const b = new Node('B')
-const c = new Node('C')
-const d = new Node('D')
-const e = new Node('E')
+// const a = new Node('A')
+// const b = new Node('B')
+// const c = new Node('C')
+// const d = new Node('D')
+// const e = new Node('E')
 
-a.next=b;
-b.next=c;
-c.next=d;
-d.next=e;
+// a.next=b;
+// b.next=c;
+// c.next=d;
+// d.next=e;
 
-const printLinkedList=(head)=>{
-    let current=head;
-    while(current!=null){
-        console.log(current.value)
-        current=current.next
-    }
-}
-printLinkedList(a);
+// const printLinkedList=(head)=>{
+//     const value=[]
+//     let current=head;
+//     while(current!=null){
+//         value.push(current.value)
+//         current=current.next
+//     }
+//     return values
+// }
+// printLinkedList(a);
+
+
+
+
+
+
+
+
+
