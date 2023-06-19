@@ -1,7 +1,8 @@
-function recursiveFactorial(n){
+function recursiveFibonacci(n){
     if(n<2){
-        return 1
+        return n
     }
-    return n*recursiveFactorial(n-1)
+    return recursiveFibonacci(n-1)+recursiveFibonacci(n-2)
 }
-console.log(recursiveFactorial(5))
+
+console.log(recursiveFibonacci(4))
